@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Flurl" Version="3.0.2" />
+    <PackageReference Include="Flurl.Http" Version="3.2.0" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Abstractions" Version="5.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\TranzactChallengePagesViews.Domain\TranzactChallengePagesViews.Core.csproj" />
+    <ProjectReference Include="..\TranzactChallengePagesViews.Utils\TranzactChallengePagesViews.Utils.csproj" />
+  </ItemGroup>
+</Project>
